@@ -6,19 +6,6 @@
   </picture>
 
   <br><br>
-
-  <p>
-    <a href="https://instagram.com/sudo.void.pranav">
-      <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-    <a href="https://linkedin.com/in/PranavXDragon">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-    </a>
-    <a href="mailto:Pranavnavghare46@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" alt="Email" />
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=PranavXDragon&style=for-the-badge&color=ff79c6" alt="Profile Views" />
-  </p>
 </div>
 
 <br>
@@ -89,4 +76,22 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake.svg">
   </picture>
+
+  <br><br>
+
+  <h3>📫 Let's Connect</h3>
+  <p>
+    <a href="https://instagram.com/sudo.void.pranav">
+      <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="https://linkedin.com/in/PranavXDragon">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+    </a>
+    <a href="mailto:Pranavnavghare46@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" alt="Email" />
+    </a>
+  </p>
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=PranavXDragon&style=for-the-badge&color=ff79c6" alt="Profile Views" />
+  </p>
 </div>
