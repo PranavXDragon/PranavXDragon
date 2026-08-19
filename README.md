@@ -45,8 +45,8 @@
 <div align="center">
   <h3>📊 GitHub Stats</h3>
   <p>
-    <img src="stats.svg?v=1" alt="GitHub Stats" width="350"/>
-    <img src="langs.svg?v=1" alt="Top Languages" width="350"/>
+    <img src="stats.svg?v=1" alt="GitHub Stats" height="185"/>
+    <img src="langs.svg?v=1" alt="Top Languages" height="185"/>
   </p>
   <p>
     <img src="trophies.svg?v=1" alt="GitHub Trophies" />
