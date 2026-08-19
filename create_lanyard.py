@@ -2,151 +2,113 @@ def create_lanyard():
     with open("avatar_base64.txt", "r") as f:
         avatar_b64 = f.read().strip()
         
-    width = 400
-    height = 600
-    
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">
-    <defs>
-        <!-- Lanyard Gradient -->
-        <linearGradient id="lanyardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#ff79c6"/>
-            <stop offset="100%" stop-color="#bd93f9"/>
-        </linearGradient>
-        
-        <!-- Glassmorphism Card -->
-        <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="rgba(255, 255, 255, 0.1)"/>
-            <stop offset="100%" stop-color="rgba(255, 255, 255, 0.05)"/>
-        </linearGradient>
-        
-        <!-- Hologram Sweep -->
-        <linearGradient id="sweepGrad" x1="-100%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)"/>
-            <stop offset="50%" stop-color="rgba(255, 255, 255, 0.4)"/>
-            <stop offset="100%" stop-color="rgba(255, 255, 255, 0)"/>
-        </linearGradient>
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 660" width="420" height="660" role="img" aria-label="Pranav Navghare ID card lanyard">
+<title>Pranav Navghare — swinging ID badge</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}}
+@keyframes settle{{0%{{transform:rotate(0deg) translateY(-660px)}}18%{{transform:rotate(0deg) translateY(0)}}30%{{transform:rotate(13deg)}}46%{{transform:rotate(-9deg)}}62%{{transform:rotate(6deg)}}78%{{transform:rotate(-3.5deg)}}92%{{transform:rotate(1.5deg)}}100%{{transform:rotate(0deg)}}}}
+@keyframes sway{{0%,100%{{transform:rotate(-3.2deg)}}50%{{transform:rotate(3.2deg)}}}}
+@keyframes cardWobble{{0%,100%{{transform:rotate(1.6deg)}}50%{{transform:rotate(-1.6deg)}}}}
+@keyframes shine{{0%{{transform:translateX(-340px) skewX(-18deg)}}55%,100%{{transform:translateX(420px) skewX(-18deg)}}}}
+@keyframes twinkle{{0%,100%{{opacity:0;transform:scale(.4)}}50%{{opacity:1;transform:scale(1)}}}}
+@keyframes heartBeat{{0%,100%{{transform:scale(1)}}12%{{transform:scale(1.25)}}24%{{transform:scale(1)}}36%{{transform:scale(1.15)}}48%{{transform:scale(1)}}}}
+@keyframes fadeIn{{from{{opacity:0}}to{{opacity:1}}}}
+.settle{{transform-origin:210px 6px;animation:settle 3.4s cubic-bezier(.34,1.1,.5,1) forwards}}
+.sway{{transform-origin:210px 6px;animation:sway 4.2s ease-in-out 3.4s infinite}}
+.wob{{transform-origin:210px 300px;animation:cardWobble 4.2s ease-in-out 3.4s infinite}}
+.shine{{animation:shine 4.5s ease-in-out 3.6s infinite}}
+.tw{{transform-box:fill-box;transform-origin:center;animation:twinkle 2.8s ease-in-out infinite}}
+.hb{{transform-box:fill-box;transform-origin:center;animation:heartBeat 2.4s ease-in-out infinite}}
+]]></style>
+<linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#d6478f"/><stop offset="50%" stop-color="#ff7eb6"/><stop offset="100%" stop-color="#d6478f"/>
+</linearGradient>
+<linearGradient id="cardg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#1d1330"/><stop offset="100%" stop-color="#140d22"/>
+</linearGradient>
+<linearGradient id="cardborder" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%"><animate attributeName="stop-color" values="#ff7eb6;#c084fc;#8b5cf6;#ff7eb6" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#8b5cf6;#ff7eb6;#c084fc;#8b5cf6" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#c8ccd6"/><stop offset="45%" stop-color="#8a90a0"/><stop offset="55%" stop-color="#6a7080"/><stop offset="100%" stop-color="#9aa0b0"/>
+</linearGradient>
+<linearGradient id="shineg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".14"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="nameg2" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#ff7eb6;#c084fc;#ff7eb6" dur="5s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#c084fc;#ff7eb6;#c084fc" dur="5s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<radialGradient id="lglow"><stop offset="0%" stop-color="#c084fc" stop-opacity=".16"/><stop offset="100%" stop-color="#c084fc" stop-opacity="0"/></radialGradient>
+<filter id="glow2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".55"/></filter>
+<clipPath id="cardclip"><rect x="82" y="298" width="256" height="330" rx="20"/></clipPath>
+<clipPath id="avatarClip"><circle cx="210" cy="412" r="59"/></clipPath>
+</defs>
 
-        <clipPath id="avatarClip">
-            <circle cx="200" cy="220" r="60"/>
-        </clipPath>
-        
-        <clipPath id="cardClip">
-            <rect x="75" y="100" width="250" height="400" rx="15"/>
-        </clipPath>
-    </defs>
-    
-    <style>
-        .text {{ font-family: 'Segoe UI', Ubuntu, sans-serif; fill: #ffffff; text-anchor: middle; }}
-        .name {{ font-size: 22px; font-weight: bold; }}
-        .role {{ font-size: 14px; fill: #c9d1d9; }}
-        .handle {{ font-size: 12px; fill: #ff79c6; font-weight: bold; }}
-        
-        /* Pendulum physics */
-        @keyframes swing {{
-            0% {{ transform: rotate(15deg); }}
-            25% {{ transform: rotate(-10deg); }}
-            50% {{ transform: rotate(5deg); }}
-            75% {{ transform: rotate(-2deg); }}
-            100% {{ transform: rotate(0deg); }}
-        }}
-        @keyframes swayForever {{
-            0% {{ transform: rotate(0deg); }}
-            50% {{ transform: rotate(2deg); }}
-            100% {{ transform: rotate(0deg); }}
-        }}
-        .lanyard-group {{
-            transform-origin: 200px -200px;
-            animation: swing 3s cubic-bezier(0.25, 1, 0.5, 1) forwards, swayForever 4s ease-in-out infinite 3s;
-        }}
-        
-        /* Drop in from top */
-        @keyframes dropIn {{
-            from {{ transform: translateY(-800px); }}
-            to {{ transform: translateY(0); }}
-        }}
-        .drop-group {{
-            animation: dropIn 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-        }}
-        
-        /* Holographic sweep */
-        @keyframes shineSweep {{
-            0% {{ transform: translateX(-300px) translateY(-300px); }}
-            100% {{ transform: translateX(300px) translateY(300px); }}
-        }}
-        .hologram-sweep {{
-            animation: shineSweep 4s infinite linear;
-        }}
-    </style>
-    
-    <g class="drop-group">
-        <g class="lanyard-group">
-            
-            <!-- Strap -->
-            <path d="M 185 -200 L 185 80 L 215 80 L 215 -200" fill="url(#lanyardGrad)"/>
-            
-            <!-- Strap text (rotated) -->
-            <!-- <text transform="rotate(90, 200, 0)" class="text" x="200" y="0" font-size="12">DEVELOPER</text> -->
-            
-            <!-- Metal Ring & Clasp -->
-            <rect x="180" y="80" width="40" height="15" rx="5" fill="#a0a0a0"/>
-            <circle cx="200" cy="105" r="12" fill="none" stroke="#d0d0d0" stroke-width="4"/>
-            <rect x="195" y="117" width="10" height="20" rx="3" fill="#a0a0a0"/>
-            
-            <!-- Card -->
-            <g clip-path="url(#cardClip)">
-                <!-- Card Background -->
-                <rect x="75" y="100" width="250" height="400" fill="#161b22" rx="15"/>
-                <rect x="75" y="100" width="250" height="400" fill="url(#glassGrad)" rx="15"/>
-                <rect x="75" y="100" width="250" height="400" fill="none" stroke="#ff79c6" stroke-width="2" rx="15"/>
-                
-                <!-- Card Hole -->
-                <rect x="180" y="115" width="40" height="10" rx="5" fill="#0d1117"/>
-                
-                <!-- Avatar Ring Glow -->
-                <circle cx="200" cy="220" r="64" fill="none" stroke="url(#lanyardGrad)" stroke-width="4"/>
-                
-                <!-- Avatar -->
-                <image href="{avatar_b64}" x="140" y="160" width="120" height="120" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
-                
-                <!-- Texts -->
-                <text class="text name" x="200" y="320">Pranav Navghare</text>
-                <text class="text role" x="200" y="345">Full-Stack &amp; CyberSec</text>
-                
-                <rect x="130" y="360" width="140" height="25" rx="12" fill="#21262d"/>
-                <text class="text handle" x="200" y="377">@PranavXDragon</text>
-                
-                <!-- Barcode -->
-                <g transform="translate(100, 420)" fill="#ffffff">
-                    <rect x="0" y="0" width="4" height="40"/>
-                    <rect x="8" y="0" width="2" height="40"/>
-                    <rect x="14" y="0" width="8" height="40"/>
-                    <rect x="26" y="0" width="2" height="40"/>
-                    <rect x="32" y="0" width="4" height="40"/>
-                    <rect x="40" y="0" width="10" height="40"/>
-                    <rect x="54" y="0" width="4" height="40"/>
-                    <rect x="62" y="0" width="2" height="40"/>
-                    <rect x="68" y="0" width="6" height="40"/>
-                    <rect x="78" y="0" width="8" height="40"/>
-                    <rect x="90" y="0" width="4" height="40"/>
-                    <rect x="98" y="0" width="10" height="40"/>
-                    <rect x="112" y="0" width="2" height="40"/>
-                    <rect x="118" y="0" width="6" height="40"/>
-                    <rect x="128" y="0" width="4" height="40"/>
-                    <rect x="136" y="0" width="8" height="40"/>
-                    <rect x="148" y="0" width="2" height="40"/>
-                    <rect x="154" y="0" width="6" height="40"/>
-                    <rect x="164" y="0" width="10" height="40"/>
-                    <rect x="178" y="0" width="4" height="40"/>
-                    <rect x="186" y="0" width="2" height="40"/>
-                    <rect x="192" y="0" width="8" height="40"/>
-                </g>
-                <text class="text role" x="200" y="475" font-size="10" font-family="monospace">1 0 1 0 0 1 1 0 1</text>
-                
-                <!-- Hologram Sweep Overlay -->
-                <rect class="hologram-sweep" x="-100" y="-100" width="500" height="800" fill="url(#sweepGrad)" transform="rotate(45, 200, 300)"/>
-            </g>
-        </g>
+<circle cx="210" cy="440" r="230" fill="url(#lglow)"><animate attributeName="r" values="230;250;230" dur="5s" repeatCount="indefinite"/></circle>
+
+<g class="tw" style="animation-delay:.5s"><path d="M60 200l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#f0abfc"/></g>
+<g class="tw" style="animation-delay:1.6s"><path d="M372 300l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#ff7eb6"/></g>
+<g class="tw" style="animation-delay:2.7s"><path d="M52 480l2.4 6.4 6.4 2.4-6.4 2.4-2.4 6.4-2.4-6.4-6.4-2.4 6.4-2.4z" fill="#c084fc"/></g>
+<g class="hb" style="animation-delay:1s"><path d="M368 480 c-4-9-17-7-17 3 0 7 10 13 17 18 7-5 17-11 17-18 0-10-13-12-17-3z" fill="#ff7eb6" opacity=".8" filter="url(#glow2)"/></g>
+
+<!-- pendulum: settle then sway -->
+<g class="settle"><g class="sway">
+
+  <!-- Strap -->
+  <g>
+    <path d="M191 -6 L229 -6 L226 236 L194 236 Z" fill="url(#strapg)"/>
+    <line x1="196" y1="0" x2="198.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
+    <line x1="224" y1="0" x2="221.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="0" y="0" font-size="10.5" font-weight="bold" fill="#fff" opacity=".92" letter-spacing="2" transform="translate(214,18) rotate(90)">PRANAV.DEV ♥ CODE ♥ PRANAV.DEV</text>
+  </g>
+
+  <!-- Clasp + ring -->
+  <rect x="188" y="232" width="44" height="26" rx="6" fill="url(#metal)" stroke="#4a4f5c" stroke-width="1"/>
+  <rect x="199" y="238" width="22" height="7" rx="3.5" fill="#3c414e"/>
+  <circle cx="210" cy="272" r="14" fill="none" stroke="url(#metal)" stroke-width="5.5"/>
+
+  <!-- Card (secondary wobble) -->
+  <g class="wob">
+    <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardg)" stroke="url(#cardborder)" stroke-width="2" filter="url(#cardShadow)"/>
+    <!-- slot -->
+    <rect x="180" y="310" width="60" height="10" rx="5" fill="#0a0714" stroke="#3b2a5c" stroke-width="1"/>
+
+    <g clip-path="url(#cardclip)">
+      <!-- header band -->
+      <rect x="82" y="298" width="256" height="34" fill="#231541" opacity=".7"/>
+      <text x="98" y="345" font-size="9" fill="#8b949e" letter-spacing="1.5">DEVELOPER ID</text>
+      <text x="322" y="345" text-anchor="end" font-size="9" fill="#ff7eb6" letter-spacing="1.5">PN-1010</text>
+
+      <!-- avatar -->
+      <circle cx="210" cy="412" r="59" fill="none" stroke="url(#cardborder)" stroke-width="2.5"/>
+      <image x="151" y="353" width="118" height="118" href="{{avatar_b64}}" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+
+      <!-- name (replaced svg path with nice glowing text) -->
+      <text x="210" y="520" text-anchor="middle" font-size="24" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="bold" fill="url(#nameg2)" filter="url(#glow2)">Pranav Navghare</text>
+
+      <text x="210" y="546" text-anchor="middle" font-size="11" fill="#e879f9" font-weight="bold" letter-spacing="2.5">FULL-STACK &amp; CYBERSEC</text>
+      <text x="210" y="562" text-anchor="middle" font-size="10.5" fill="#8b949e">@PranavXDragon</text>
+
+      <line x1="100" y1="576" x2="320" y2="576" stroke="#2a1f3d" stroke-width="1"/>
+
+      <!-- barcode + tag -->
+      <g transform="translate(100,588)">
+        <rect x="0" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="5.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="9.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="12.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="16.0" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="21.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="26.0" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="31.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="34.5" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="41.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="45.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="50.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="54.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="58.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="63.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="67.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="72.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="76.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="81.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="84.0" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="89.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="93.5" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/>
+      </g>
+      <text x="320" y="604" text-anchor="end" font-size="8.5" fill="#8b949e">PYTHON • TS</text>
+      <text x="320" y="616" text-anchor="end" font-size="8.5" fill="#8b949e">REACT • SQL</text>
+
+      <!-- holo shine sweep -->
+      <rect class="shine" x="82" y="288" width="120" height="360" fill="url(#shineg)"/>
     </g>
+  </g>
+</g></g>
+
+<text x="210" y="652" text-anchor="middle" font-size="10" fill="#8b949e" opacity="0" style="animation:fadeIn .6s ease 3.6s forwards">— drag me… just kidding, I'm an SVG ♥ —</text>
 </svg>"""
 
     with open("lanyard.svg", "w", encoding="utf-8") as f:
