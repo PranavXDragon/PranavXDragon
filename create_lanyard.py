@@ -85,7 +85,7 @@ text{{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}}
 
       <!-- avatar -->
       <circle cx="210" cy="412" r="59" fill="none" stroke="url(#cardborder)" stroke-width="2.5"/>
-      <image x="151" y="353" width="118" height="118" href="{{avatar_b64}}" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+      <image x="151" y="353" width="118" height="118" href="{avatar_b64}" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
 
       <!-- name (replaced svg path with nice glowing text) -->
       <text x="210" y="520" text-anchor="middle" font-size="24" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="bold" fill="url(#nameg2)" filter="url(#glow2)">Pranav Navghare</text>
