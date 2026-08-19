@@ -19,9 +19,36 @@
     </a>
     <img src="https://komarev.com/ghpvc/?username=PranavXDragon&style=for-the-badge&color=ff79c6" alt="Profile Views" />
   </p>
-
-  <img src="lanyard.svg?v=1" alt="Swinging ID Badge" width="200" />
 </div>
+
+<br>
+
+<table align="center" border="0">
+<tr>
+<td width="38%" align="center" valign="middle">
+
+<!-- 🪪 Swinging Lanyard ID Card -->
+<img src="lanyard.svg?v=2" alt="Pranav Navghare ID badge" width="330"/>
+
+</td>
+<td width="62%" valign="middle">
+
+### 🚀 Featured Projects
+
+| 📁 Project | 💻 Tech |
+|:---|:---:|
+| [🎮 DSSA](https://github.com/PranavXDragon/DSSA) | `GLSL` |
+| [💼 hirred](https://github.com/PranavXDragon/hirred) | `JavaScript` |
+| [🌐 NSDC](https://github.com/PranavXDragon/NSDC) | `TypeScript` |
+| [✨ XOVATO](https://github.com/PranavXDragon/XOVATO) | `TypeScript` |
+
+<br/>
+
+> ⚡ *"Building things, breaking things, learning how they work."*
+
+</td>
+</tr>
+</table>
 
 <br>
 
