@@ -22,12 +22,12 @@
 
 ### 🚀 Featured Projects
 
-| 📁 Project | 💻 Tech |
-|:---|:---:|
-| [🎮 DSSA](https://github.com/PranavXDragon/DSSA) | `GLSL` |
-| [💼 hirred](https://github.com/PranavXDragon/hirred) | `JavaScript` |
-| [🌐 NSDC](https://github.com/PranavXDragon/NSDC) | `TypeScript` |
-| [✨ XOVATO](https://github.com/PranavXDragon/XOVATO) | `TypeScript` |
+| 📁 Project | 💻 Tech | ⭐ |
+|:---|:---:|:---:|
+| [🎮 DSSA](https://github.com/PranavXDragon/DSSA) | <kbd>GLSL</kbd> | 14 |
+| [💼 hirred](https://github.com/PranavXDragon/hirred) | <kbd>JavaScript</kbd> | 9 |
+| [🌐 NSDC](https://github.com/PranavXDragon/NSDC) | <kbd>TypeScript</kbd> | 6 |
+| [✨ XOVATO](https://github.com/PranavXDragon/XOVATO) | <kbd>TypeScript</kbd> | 3 |
 
 <br/>
 
