@@ -40,6 +40,19 @@
 <br>
 
 <div align="center">
+  <h3>📊 GitHub Stats</h3>
+  <p>
+    <img src="stats.svg?v=1" alt="GitHub Stats" height="185"/>
+    <img src="langs.svg?v=1" alt="Top Languages" height="185"/>
+  </p>
+  <p>
+    <img src="trophies.svg?v=1" alt="GitHub Trophies" />
+  </p>
+</div>
+
+---
+
+<div align="center">
   <h3>⚡ Tech Stack & Tools</h3>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -53,19 +66,6 @@
 </div>
 
 <br>
-
----
-
-<div align="center">
-  <h3>📊 GitHub Stats</h3>
-  <p>
-    <img src="stats.svg?v=1" alt="GitHub Stats" height="185"/>
-    <img src="langs.svg?v=1" alt="Top Languages" height="185"/>
-  </p>
-  <p>
-    <img src="trophies.svg?v=1" alt="GitHub Trophies" />
-  </p>
-</div>
 
 ---
 
