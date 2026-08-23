@@ -52,7 +52,7 @@
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=PranavXDragon&bg_color=141321&color=ff79c6&line=9e86ff&point=ff79c6&area=true&hide_border=true&custom_title=Contribution%20Graph%20%F0%9F%92%97" alt="Contribution Graph" />
   </p>
   <p>
-    <img src="trophies.svg?v=1" alt="GitHub Trophies" />
+    <img src="trophies.svg?v=2" alt="GitHub Trophies" />
   </p>
 </div>
 
