@@ -40,15 +40,58 @@
 <br>
 
 <div align="center">
-  <h3>📊 GitHub Stats</h3>
+  <h3>📊 GitHub Stats & Graphs</h3>
   <p>
     <img src="stats.svg?v=1" alt="GitHub Stats" height="185"/>
     <img src="langs.svg?v=1" alt="Top Languages" height="185"/>
   </p>
   <p>
+    <img src="https://streak-stats.demolab.com/?user=PranavXDragon&theme=dracula&hide_border=true&background=141321" alt="GitHub Streak" />
+  </p>
+  <p>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=PranavXDragon&bg_color=141321&color=ff79c6&line=9e86ff&point=ff79c6&area=true&hide_border=true&custom_title=Contribution%20Graph%20%F0%9F%92%97" alt="Contribution Graph" />
+  </p>
+  <p>
     <img src="trophies.svg?v=1" alt="GitHub Trophies" />
   </p>
 </div>
+
+<br>
+
+<div align="center">
+  <h3>🐍 Watch the snake eat my contributions</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake.svg">
+  </picture>
+
+  <br><br>
+
+  <h3>📫 Let's Connect</h3>
+  <p>
+    <a href="mailto:Pranavnavghare46@gmail.com">
+      <img src="https://img.shields.io/badge/EMAIL-ff79c6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://github.com/PranavXDragon">
+      <img src="https://img.shields.io/badge/GITHUB-bd93f9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://instagram.com/sudo.void.pranav">
+      <img src="https://img.shields.io/badge/INSTAGRAM-ff79c6?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="https://youtube.com/">
+      <img src="https://img.shields.io/badge/YOUTUBE-ff5555?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+    </a>
+  </p>
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=PranavXDragon&style=for-the-badge&color=ff79c6" alt="Profile Views" />
+  </p>
+  <p>
+    <i>🌟 Always learning, always building. 🩷</i>
+  </p>
+</div>
+
+<br>
 
 ---
 
@@ -63,35 +106,4 @@
   <img src="https://img.shields.io/badge/AI%2FML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI/ML" />
   <img src="https://img.shields.io/badge/AI_Agents-673AB7?style=for-the-badge&logo=openai&logoColor=white" alt="AI Agents" />
   <img src="https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Cybersecurity" />
-</div>
-
-<br>
-
----
-
-<div align="center">
-  <h3>🐍 Contribution Graph</h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake.svg">
-  </picture>
-
-  <br><br>
-
-  <h3>📫 Let's Connect</h3>
-  <p>
-    <a href="https://instagram.com/sudo.void.pranav">
-      <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-    <a href="https://linkedin.com/in/PranavXDragon">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-    </a>
-    <a href="mailto:Pranavnavghare46@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" alt="Email" />
-    </a>
-  </p>
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=PranavXDragon&style=for-the-badge&color=ff79c6" alt="Profile Views" />
-  </p>
 </div>
