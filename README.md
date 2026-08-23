@@ -46,7 +46,7 @@
     <img src="langs.svg?v=1" alt="Top Languages" height="185"/>
   </p>
   <p>
-    <img src="https://streak-stats.demolab.com/?user=PranavXDragon&theme=dracula&hide_border=true&background=141321" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=PranavXDragon&theme=dracula&hide_border=true&background=141321" alt="GitHub Streak" />
   </p>
   <p>
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=PranavXDragon&bg_color=141321&color=ff79c6&line=9e86ff&point=ff79c6&area=true&hide_border=true&custom_title=Contribution%20Graph%20%F0%9F%92%97" alt="Contribution Graph" />
@@ -61,9 +61,9 @@
 <div align="center">
   <h3>🐍 Watch the snake eat my contributions</h3>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/dist/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/PranavXDragon/PranavXDragon/output/github-contribution-grid-snake.svg">
   </picture>
 
   <br><br>
