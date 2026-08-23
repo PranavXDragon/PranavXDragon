@@ -22,16 +22,16 @@
 
 ### 🚀 Featured Projects
 
-| 📁 Project | 💻 Tech | ⭐ |
+| 🎌 Project | 💻 Tech | ⭐ |
 |:---|:---:|:---:|
-| [🎮 DSSA](https://github.com/PranavXDragon/DSSA) | <kbd>GLSL</kbd> | 14 |
-| [💼 hirred](https://github.com/PranavXDragon/hirred) | <kbd>JavaScript</kbd> | 9 |
-| [🌐 NSDC](https://github.com/PranavXDragon/NSDC) | <kbd>TypeScript</kbd> | 6 |
-| [✨ XOVATO](https://github.com/PranavXDragon/XOVATO) | <kbd>TypeScript</kbd> | 3 |
+| [🎮 DSSA — Graphics & Shaders](https://github.com/PranavXDragon/DSSA) | <kbd>C++</kbd> <kbd>GLSL</kbd> | 14 |
+| [💼 hirred — Job Portal Platform](https://github.com/PranavXDragon/hirred) | <kbd>React</kbd> <kbd>JS</kbd> | 9 |
+| [🌐 NSDC — Web Application](https://github.com/PranavXDragon/NSDC) | <kbd>React</kbd> <kbd>TS</kbd> | 6 |
+| [✨ XOVATO — Modern SaaS Platform](https://github.com/PranavXDragon/XOVATO) | <kbd>Next.js</kbd> <kbd>TS</kbd> | 3 |
 
 <br/>
 
-> ⚡ *"Building things, breaking things, learning how they work."*
+> 💖 *"Building things, breaking things, learning how they work."*
 
 </td>
 </tr>
